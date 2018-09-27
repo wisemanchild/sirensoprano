@@ -898,7 +898,7 @@ input[type="submit"] {
 .site-branding .search-bar{
     text-align: center;
     padding: 0;
-    /*margin-bottom: 20px;*/
+    margin-bottom: 20px;
     /*display: none;*/
 }
 .site-branding .search-bar .widget-area{
@@ -1770,11 +1770,13 @@ article{
     }
     
 }
+/*TODO: nlm-20180926- stylesheet from byblos template not byblos-nlm changed from 992*/
 @media( min-width: 992px ){
     .site-branding-mobile{
         display: none;
     }    
 }
+/*TODO: nlm-20180926 changed brakepoint to 1920 from 991*/
 @media( max-width: 991px ){
     
     header#masthead {
